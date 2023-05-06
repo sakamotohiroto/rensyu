@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(226, 247, 247);
+  color: #432;
+}
+
+.header {
+  background-color: white;
+  width: 180px;
+  padding: 10px;
+}
+.header a {
+  display: block;
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  background-color: blue;
+  margin: 0 auto;
+  transition: transform 1s;
+}
+.header a:hover {
+  transform: rotate(360deg);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+ul li {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */
